@@ -25,14 +25,14 @@ public class Account {
                 
                 Note: You can bring up this Menu at any time
                 by entering M""");
-//        System.out.println("Enter an option: ");
+
 
         //The menu options sits inside a while-loop. Exit condition is setting 'quitloop' to 'true'
         boolean quitLoop = false;
 
         while (!quitLoop) {
             System.out.println();
-//            System.out.println("Enter an option: ");
+
             String menuOption = scanner.nextLine().toUpperCase();
 
             switch (menuOption){
@@ -94,9 +94,4 @@ public class Account {
     public void withdraw(int amount){
         balance -= amount;
     }
-
-    public static void transactionHistory(){
-
-    }
-
 }
