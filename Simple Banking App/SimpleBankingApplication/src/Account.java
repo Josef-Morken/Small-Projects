@@ -86,7 +86,6 @@ public class Account {
     
     //Function for depositing funds
     public void deposit(int amount){
-        int startingAmount = 0;
         balance += amount;
     }
 
