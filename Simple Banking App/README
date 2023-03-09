@@ -1,4 +1,9 @@
 A Simple Banking App to combine what I'm learning in the Java Master Class on Udemy. Using Github to practice versioning.
 
 v1.0.0 is the baseline. It will be used to add additional functionality
-v1.1.0 will aim to add a checking/saving option to the all menu options. 
+
+v2.0.0 saw significant changes from the baseline.
+  -Balance class variable removed
+  -Individual balances and overall account balance still available
+  -Menu changed and the user is now allowed to select either Checking/Savings before making a decision to Withdraw/Deposit
+  -The math heavy lifting was moved to the methods that deal with the user inputs instead of residing in the Switch Case
