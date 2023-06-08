@@ -7,3 +7,7 @@ v2.0.0 saw significant changes from the baseline.
   -Individual balances and overall account balance still available
   -Menu changed and the user is now allowed to select either Checking/Savings before making a decision to Withdraw/Deposit
   -The math heavy lifting was moved to the methods that deal with the user inputs instead of residing in the Switch Case
+
+v2.1 fixed several bugs
+  -Entering unexpected inputs in the Checking/Saving accounts would exit the program. Now returns user to the main menu.
+  -Removed unused, duplicate code
